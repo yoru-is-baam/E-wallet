@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: black;
+}
+
+.home__page {
+  color: #ffff;
+  margin-top: 250px;
+}
+
+.home__page h1 {
+  font-size: 100px;
+}
+
+.header {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  margin-top: 13px;
+  margin-left: 80px;
+  color: #ffff;
+}
+
+.dropdown button {
+  margin-top: 17px;
+  margin-left: 20px;
+  background: none;
+}
+
+.dropdown button:hover,
+.dropdown-item:hover {
+  background-color: #c2c2c2;
+}
+
+.dropleft {
+  display: none;
+}
+
+.dropleft button {
+  margin-top: 17px;
+  margin-left: 20px;
+  background: none;
+}
+
+.dropleft button:hover,
+.dropleft-item:hover {
+  background-color: #c2c2c2;
+}
+
+.navi__list {
+  list-style-type: none;
+  border-right: 1px solid #c2c2c2;
+}
+
+.navi__list i {
+  margin-right: 5px;
+}
+
+.navi__item-1 {
+  margin-top: 40px;
+  margin-left: 65px;
+}
+
+.navi__item-2 {
+  border-radius: 10px;
+  padding: 10px;
+  border-style: none;
+  background: none;
+  color: #ffff;
+  width: 180px;
+  text-align: left;
+}
+
+.navi__item-2:hover {
+  background-color: #c2c2c2;
+  color: black;
+  width: 200px;
+}
+
+
+.content__recharge, .content__ID {
+  color: #ffff;
+  margin-top: 30px;
+  margin-left: 80px;
+  margin-right: 80px;
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 15px;
+}
+
+.content__recharge .top-money {
+  background: none;
+  border: none;
+  color: #c2c2c2;
+}
+
+.content__recharge .top-money :hover {
+  color: rgb(82, 253, 82);
+}
+
+.content__withdraw,
+.content__transfer {
+  color: #3498db;
+  margin-top: 15px;
+  padding: 30px 20px;
+  background-color: rgb(223, 223, 223);
+  text-align: center;
+  border-radius: 5px;
+}
+
+.content__withdraw [type="text"],
+.content__transfer [type="text"] {
+  display: block;
+  background: none;
+  margin: 0 auto;
+  width: 80%;
+  border: 0;
+  border-bottom: 1px solid #3498db;
+  height: 45px;
+  line-height: 45px;
+  font-size: 1em;
+  color: black;
+}
+
+.content__withdraw [type="date"],
+.content__transfer [type="date"] {
+  display: block;
+  background: none;
+  margin: 0 auto;
+  width: 80%;
+  border: 0;
+  border-bottom: 1px solid #3498db;
+  height: 45px;
+  line-height: 45px;
+  font-size: 1em;
+  color: black;
+}
+
+.content__withdraw [type="submit"],
+.content__transfer [type="submit"] {
+  margin-top: 25px;
+  width: 80%;
+  border: 0;
+  background: #3498db;
+  border-radius: 5px;
+  height: 50px;
+  color: white;
+  font-weight: 400;
+  font-size: 1em;
+}
+
+.content__withdraw [type="text"]:focus,
+.content__withdraw[type="date"]:focus,
+.content__transfer [type="text"]:focus,
+.content__transfer [type="date"]:focus {
+  outline: none;
+  border-color: #3498db;
+}
+
+.content__transfer .pay__fee {
+  margin-right: 40px;
+}
+
+.content__transfer .form-check {
+  margin-right: 20px;
+}
+
+.content__buy-phone-card {
+  color: #ffff;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.content__phone-card .pc-item {
+  margin: 2rem;
+}
+
+.content__card-type {
+  color: #ffff;
+  text-align: center;
+}
+
+.content__card-type .ct-item {
+  color: #ffff;
+  margin: 1rem;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #404344;
+  padding: 7px;
+  border-style: none;
+}
+
+.table {
+  color: #ffff;
+  background-color: #343a40;
+}
+
+.table td,
+.table th {
+  vertical-align: unset;
+}
+
+.responsive__list {
+  display: none;
+}
